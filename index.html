@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./asset/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+ <div class=" container">
+        <div class="calc">
+            <input type="text" name="text" class="displayResult">
+          <div class="row calculator">
+                <button id="sin" >Sin</button>
+                <button  id="cos">Cos</button>
+                <button  id="log">log</button>
+                <button  id="exp">e</button>
+                
+            </div>
+            <div class="row calculator">
+                <button onclick="clean()">AC</button>
+                <button onclick="display('(')"  value="(">(</button>
+                <button onclick="display(')')"  value=")">)</button>
+                <button onclick="display('/')" class="opettor" value="/">/</button>
+            </div>
+            <div class="row calculator">
+                <button onclick="display('7')" value="7">7</button>
+                <button onclick="display('8')"value="8">8</button>
+                <button onclick="display('9')"value="9">9</button>
+                <button onclick="display('*')" value="*" class="opettor">*</button>
+            </div>
+            <div class="row calculator">
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')"  class="opettor">-</button>
+            </div>
+            <div class="row calculator">
+                <button onclick="display('1')" value="1">1</button>
+                <button onclick="display('2')" value="2">2</button>
+                <button onclick="display('3')" value="3">3</button>
+                <button onclick="display('+')" value="+">+</button>
+            </div>
+            <div class="row">
+                <button onclick="del()">⌫</button>
+                <button onclick="display('0')" value="0">0</button>
+                <button onclick="display('.')" value=".">.</button>
+                <button onclick="calcuateResult()" >=</button>
+            </div>
+
+        </div>
+    </div> 
+</div> 
+</body>
+
+   <script src="./asset/js/script.js"></script>
+</html>
